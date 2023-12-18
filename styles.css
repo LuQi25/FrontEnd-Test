@@ -1,0 +1,132 @@
+/*General*/
+img{
+    max-width: 100%;
+}
+/*Para la navegacion*/
+.navegation{
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    margin: -10px -20px 20px -20px;
+    background-color: #442F2F;
+}
+.navegation ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 90px 10px;
+}
+.navegation ul li a{
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #f1c39e4a;
+    border-radius: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.navegation ul li a:hover{
+    color: #DF5E4C;
+    background-color: #FFB968;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    background-image: url(svg/LOGO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    float: left;
+}
+
+/*Para las cajas de contenido*/
+
+.box1{
+    width: 95%;
+    height: 300px;
+    margin: 20px auto;
+    background-image: url(https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/FJKXKQKMMJBV7KQ7XQ3YNFO7LU.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30em;
+}
+
+.title h1{
+    width: 95%;
+    height: 250px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    color: #622f2f;
+    font: 400 160px "Karantina-Regular", sans-serif;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    padding: 50px 0px;
+}
+
+.flex1, .flex2{
+    
+    width: 95%;
+    border: 4px solid white;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.box3{
+    flex-basis: 400px;
+    flex-grow: 1;
+    width: 49%;
+    height: 30em;
+    background-color: rgb(66, 0, 247);
+}
+.box4{
+    flex-basis: 400px;
+    flex-grow: 1;
+    width: 49%;
+    height: 30em;
+    background-color: #F77F00;
+}
+.box6{
+    flex-basis: 400px;
+    flex-grow: 1;
+    width: 49%;
+    height: 30em;
+    background-color: rgb(66, 0, 247);
+}
+.box7{
+    flex-basis: 400px;
+    flex-grow: 1;
+    width: 49%;
+    height: 30em;
+    background-color: #F77F00;
+}
+
+
+
+.box5 {
+    width: 95%;
+    height: 350px;
+    margin: 20px auto;
+    background-color: #F77F00;
+    min-height: 30em;
+}
+
+
+/*colocar debajo de las css que se sobrescriben*/
+@media screen and (max-width: 1220px){
+    .title h1{
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .box3, .box4, .box6, .box7 .title{
+        width: 100%;
+        float: none;
+    }
+    .title h1{
+        font-size: 60px;
+    }
+}
